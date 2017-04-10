@@ -1,56 +1,47 @@
 package in.canaraengineering.notifyme;
 
 /**
- * Created by USER on 4/8/2017.
+ * Created by USER on 4/9/2017.
  */
 
-public   class Company {
-    private static String mCompanyName;
-    private static String mCompanyDescription;
-    private static String mCompanyPackage;
+public class Company {
+    private String CompanyName;
+    private String CompanyVenue;
+    private String CompanyPackage;
 
-    public  Company(){
 
-    }
-
-    public Company(String CompanyName,String CompanyDescription,String CompanyPackage){
-
-        mCompanyName = CompanyName;
-        mCompanyDescription  = CompanyDescription;
-        mCompanyPackage  = CompanyPackage;
-
+    public Company( ){
 
     }
 
-
-
-    public static String getmCompanyName() {
-        return mCompanyName;
+    public Company(String CompanyName,String CompanyVenue,String CompanyPackage){        // company constructor with paramenter
+        this.CompanyName = CompanyName;
+        this.CompanyPackage = CompanyPackage;
+        this.CompanyVenue = CompanyVenue;
     }
 
-    public  void setmCompanyName(String mCompanyName) {
-        this.mCompanyName = mCompanyName;
+    public String getCompanyName() {
+        return CompanyName;
     }
 
-    public String getmCompanyDescription() {
-        return mCompanyDescription;
+    public void setCompanyName(String CompanyName) {
+        this.CompanyName = CompanyName;
     }
 
-    public void setmCompanyDescription(String mCompanyDescription) {
-        this.mCompanyDescription = mCompanyDescription;
+    public String getCompanyVenue() {
+        return CompanyVenue;
     }
 
-    public static String getmCompanyPackage() {
-        return mCompanyPackage;
+    public void setCompanyVenue(String CompanyVenue) {
+        this.CompanyVenue = CompanyVenue;
     }
 
-    public void setmCompanyPackage(String mCompanyPackage) {
-        this.mCompanyPackage = mCompanyPackage;
+    public String getCompanyPackage() {
+        return CompanyPackage;
     }
 
-
-
-
-
+    public void setCompanyPackage(String CompanyPackage) {
+        this.CompanyPackage = CompanyPackage;
+    }
 
 }
