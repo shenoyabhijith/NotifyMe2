@@ -1,4 +1,3 @@
-
 <RelativeLayout
     android:id="@+id/main_layout"
     xmlns:android="http://schemas.android.com/apk/res/android"
@@ -6,24 +5,23 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/background"
     tools:context=".MainActivity">
-    <android.support.design.widget.TabLayout
-        android:id="@+id/tab_layout"
-        app:tabMode="fixed"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:background="?attr/colorPrimary"
-        app:tabTextColor="#d3d3d3"
-        app:tabSelectedTextColor="#ffffff"
-        app:tabIndicatorColor="#ff00ff"
-        android:minHeight="?attr/actionBarSize"
-        />
+    <ProgressBar
+        android:id="@+id/progressBar1"
+        style="?android:attr/progressBarStyleLarge"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_centerHorizontal="true" />
 
     <ListView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:id="@+id/listview"
         android:layout_alignParentBottom="true"
-        android:layout_alignParentEnd="true"
-        android:layout_below="@+id/tab_layout" />
+        android:layout_alignParentEnd="true">
+    </ListView>
+
+
+
 </RelativeLayout>

@@ -1,4 +1,19 @@
 <resources>
     <string name="app_name">NotifyMe</string>
     <string name="rv_recycler_view">recyclerview</string>
+    <string name="title_activity_navigation">NavigationActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="action_settings">Settings</string>
+    <string name="Logout">Logout</string>
+    <string name="title_activity_company">CompanyActivity</string>
+    <string name="companyname">CompanyName</string>
+    <string name="result_download">Result Download</string>
+    <string name="result">Result</string>
+    <string name="company_name">CompanyName</string>
+    <string name="cec_portal">Cec Portal</string>
+    <string name="portal">PORTAL</string>
+    <string name="CompanyName">Company NAme</string>
+    <string name="CompanyVenue"> CEC </string>
+    <string name="cec">CEC</string>
 </resources>
